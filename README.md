@@ -133,6 +133,7 @@ fastboot reboot recovery
 after that it is better to flash TWRP.zip file 
 ## Credits
 1VicTim1
+
 Files taken from https://github.com/MoonL1ght-Team/orangefox-recovery-fire
 ## Device picture
 
