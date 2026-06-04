@@ -109,7 +109,7 @@ $~$
 
 ## How to install "permanently"
 
-1. download orangefox image [here](https://github.com/MoonL1ght-Team/twrp_device_xiaomi_fire/releases/latest).
+1. download orangefox image [here](https://github.com/Flasix67/twrp_device_xiaomi_fire/releases/latest).
 
 2. dump your boot image with [mtkclient](https://github.com/bkerler/mtkclient):
 
@@ -117,7 +117,7 @@ $~$
 python3 mtk r boot boot.img
 ```
 
-3. flash [orangefox image](https://github.com/MoonL1ght-Team/twrp_device_xiaomi_fire/releases/latest) to your boot_a "or boot" partition
+3. flash [orangefox image](https://github.com/Flasix67/twrp_device_xiaomi_fire/releases/latest) to your boot_a "or boot" partition
 
 ```bash
 fastboot flash boot TWRP-3.7.1_12.0.img
