@@ -7,7 +7,9 @@ It was announced and released in June 2023.
 ## Credits
 1VicTim1
 
-Files taken from https://github.com/MoonL1ght-Team/orangefox-recovery-fire from branch `84c5677`
+Files taken from https://github.com/MoonL1ght-Team/orangefox-recovery-fire from branch `84c5677` 
+
+(https://github.com/MoonL1ght-Team/orangefox-recovery-fire/tree/84c567772f3e721e4e57b0b592e2d8392e192133)
 
 ## Device specifications
 
