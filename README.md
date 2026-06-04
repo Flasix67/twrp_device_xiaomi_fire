@@ -74,7 +74,7 @@ $~$
 2. In the root folder of the fetched [repo](https://wiki.orangefox.tech/en/dev/building#h-1-sync-orangefox-sources-and-minimal-manifest), clone the device tree:
 
 ```bash
-git clone https://github.com/mahdi-salimi05/ofrp_device_xiaomi_fire.git device/xiaomi/fire
+git clone https://github.com/MoonL1ght-Team/twrp_device_xiaomi_fire.git device/xiaomi/fire
 ```
 
 3. To build:
@@ -109,7 +109,7 @@ $~$
 
 ## How to install "permanently"
 
-1. download orangefox image [here](https://github.com/mahdi-salimi05/OrangeFox-Action-Builder/releases/latest).
+1. download orangefox image [here](https://github.com/MoonL1ght-Team/twrp_device_xiaomi_fire/releases/latest).
 
 2. dump your boot image with [mtkclient](https://github.com/bkerler/mtkclient):
 
@@ -117,10 +117,10 @@ $~$
 python3 mtk r boot boot.img
 ```
 
-3. flash [orangefox image](https://github.com/mahdi-salimi05/OrangeFox-Action-Builder/releases/latest) to your boot_a "or boot" partition
+3. flash [orangefox image](https://github.com/MoonL1ght-Team/twrp_device_xiaomi_fire/releases/latest) to your boot_a "or boot" partition
 
 ```bash
-fastboot flash boot OrangeFox-R12.1-Unofficial-fire.img
+fastboot flash boot TWRP-3.7.1_12.0.img
 ```
 
 4. reboot to recovery
@@ -129,11 +129,13 @@ fastboot flash boot OrangeFox-R12.1-Unofficial-fire.img
 fastboot reboot recovery
 ```
 
-5. Once booted, put your stock boot image in Internalstorage , MicroSdcard or Usb-Otg then Flash stock boot image in boot partition and tick (Flash to both slots) (this will remove OF recovery form your device; you need to reflash orange fox from menu>Flash current OF).
-after that it is better to flash OF.zip file 
+5. Once booted, put your stock boot image in Internalstorage , MicroSdcard or Usb-Otg then Flash stock boot image in boot partition and tick (Flash to both slots) (this will remove TWRP recovery form your device; you need to reflash TWRP from menu>Flash current TWRP).
+after that it is better to flash TWRP.zip file 
 ## Credits
 
 AntarcticShaurant TWRP Device tree: https://github.com/redmi-fire-devs/twrp_device_xiaomi_fire
+
+1VicTim1 
 ## Device picture
 
 ![xiaomi-redmi-12-1](https://github.com/AntarticShaurant/android_device_xiaomi_fire/assets/109678650/bd593af4-92d4-4d5a-872d-e21bbb699a89)
