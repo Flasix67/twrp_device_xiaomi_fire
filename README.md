@@ -4,6 +4,11 @@ The Xiaomi Redmi 12 (codenamed _"fire"_) is an entry-level smartphone from Xiaom
 
 It was announced and released in June 2023.
 
+## Credits
+1VicTim1
+
+Files taken from https://github.com/MoonL1ght-Team/orangefox-recovery-fire
+
 ## Device specifications
 
 | Feature                        | Specification                                                     |
@@ -130,11 +135,8 @@ fastboot reboot recovery
 ```
 
 5. Once booted, put your stock boot image in Internalstorage , MicroSdcard or Usb-Otg then Flash stock boot image in boot partition and tick (Flash to both slots) (this will remove TWRP recovery form your device; you need to reflash TWRP from menu>Flash current TWRP).
-after that it is better to flash TWRP.zip file 
-## Credits
-1VicTim1
+after that it is better to flash TWRP.zip file
 
-Files taken from https://github.com/MoonL1ght-Team/orangefox-recovery-fire
 ## Device picture
 
 ![xiaomi-redmi-12-1](https://github.com/AntarticShaurant/android_device_xiaomi_fire/assets/109678650/bd593af4-92d4-4d5a-872d-e21bbb699a89)
