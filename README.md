@@ -81,7 +81,7 @@ $~$
 2. In the root folder of the fetched [repo](https://wiki.orangefox.tech/en/dev/building#h-1-sync-orangefox-sources-and-minimal-manifest), clone the device tree:
 
 ```bash
-git clone https://github.com/MoonL1ght-Team/twrp_device_xiaomi_fire.git device/xiaomi/fire
+git clone https://github.com/Flasix67/twrp_device_xiaomi_fire.git device/xiaomi/fire
 ```
 
 3. To build:
